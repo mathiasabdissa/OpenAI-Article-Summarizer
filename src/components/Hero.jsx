@@ -1,11 +1,11 @@
 import { logo } from "../assets";
 const Hero = () => {
     return (
-        <header className="w-full flex justify-center items-center flex-col">
-            <nav className="flex justify-between items-center w-full mb-10 pt-3">
-                <img src={logo} className='w-28 object-contain' alt="" />
+        <header className="flex flex-col items-center justify-center w-full">
+            <nav className="flex items-center justify-between w-full pt-3 mb-10">
+                <img src={logo} className='object-contain w-28' alt="" />
 
-                <button type="button" className="black_btn" onClick={() => window.open('')}>
+                <button type="button" className="black_btn" onClick={() => window.open('https://mathiasabdissa.github.io/')}>
                     Github
                 </button>
             </nav>
